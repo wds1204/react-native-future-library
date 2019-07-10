@@ -23,7 +23,7 @@ public class RNFutureModule extends ReactContextBaseJavaModule {
     return "RNFuture";
   }
 
-
+  @ReactMethod
   public void  textMethod(){
     Log.e(TAG, "textMethod测试测试");
   }
